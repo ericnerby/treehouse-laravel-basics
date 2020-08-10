@@ -6,16 +6,16 @@
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="{{env('app_url')}}/tracks"><b>Tracks</b></a>
+                <a class="nav-link" href="{{env('app_url')}}:{{env('server_port')}}/tracks"><b>Tracks</b></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="{{env('app_url')}}/"><b>Library</b></a>
+                <a class="nav-link" href="{{env('app_url')}}:{{env('server_port')}}/"><b>Library</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{env('app_url')}}/community"><b>Community</b></a>
+                <a class="nav-link" href="{{env('app_url')}}:{{env('server_port')}}/community"><b>Community</b></a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="{{env('app_url')}}/support"><b>Support</b></a>
+                <a class="nav-link" href="{{env('app_url')}}:{{env('server_port')}}/support"><b>Support</b></a>
             </li>
         </ul>
         <ul class="navbar-nav float-right">
